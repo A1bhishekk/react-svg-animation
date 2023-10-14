@@ -6,13 +6,14 @@ import dbanimation from './assets/dbanimation.json'
 import hackinganimation from './assets/hacking.json'
 import securityanimation from './assets/security.json'
 import csanimation from './assets/cbsanim.json'
+import ParticleBackground from './components/ParticleBackground'
 
 
 const App = () => {
   return (
     <>
+    <ParticleBackground/>
     <h2>React SVG Animation</h2>
-
     <div className='main'>
       <div className="anim">
       <Lottie animationData={dbanimation}  height={29}/>
