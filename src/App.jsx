@@ -19,13 +19,13 @@ const App = () => {
       <Lottie animationData={dbanimation}  height={29}/>
       </div>
       <div className="anim">
-      <Lottie animationData={csanimation} />
+      <Lottie animationData={securityanimation}  />
       </div>
       <div className="anim">
       <Lottie animationData={hackinganimation} />
       </div>
       <div className="anim">
-      <Lottie animationData={securityanimation}  />
+      <Lottie animationData={csanimation} />
       </div>
         
     </div>
